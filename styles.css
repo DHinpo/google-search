@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.images {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.forma {
+    padding: 20px;
+}
+
+/* margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+     text-align: center;
+     padding-top: 6px;
+     width: auto;
+     position: relative;
+     max-width: 584px;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto */
